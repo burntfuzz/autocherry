@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="EmptyTemplate" prog_lang="custom-colors" readonly="False" tags="" unique_id="1">
+		<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Service Enumeration" prog_lang="custom-colors" readonly="False" tags="" unique_id="2">
+			<rich_text></rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Post Exploitation" prog_lang="custom-colors" readonly="False" tags="" unique_id="3">
+			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Users &amp; Groups" prog_lang="custom-colors" readonly="False" tags="" unique_id="4">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="System Info" prog_lang="custom-colors" readonly="False" tags="" unique_id="5">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Processes" prog_lang="custom-colors" readonly="False" tags="" unique_id="6">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Network Info" prog_lang="custom-colors" readonly="False" tags="" unique_id="7">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Installed Applications" prog_lang="custom-colors" readonly="False" tags="" unique_id="8">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Jobs" prog_lang="custom-colors" readonly="False" tags="" unique_id="9">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="30" foreground="" is_bold="False" name="Privesc (User)" prog_lang="custom-colors" readonly="False" tags="" unique_id="10">
+				<rich_text></rich_text>
+				<node custom_icon_id="18" foreground="" is_bold="False" name="Notes" prog_lang="custom-colors" readonly="False" tags="" unique_id="11">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="Script Results" prog_lang="custom-colors" readonly="False" tags="" unique_id="12">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Permissions" prog_lang="custom-colors" readonly="False" tags="" unique_id="13">
+					<rich_text></rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="30" foreground="" is_bold="False" name="Privesc (Root)" prog_lang="custom-colors" readonly="False" tags="" unique_id="14">
+				<rich_text></rich_text>
+				<node custom_icon_id="18" foreground="" is_bold="False" name="Notes" prog_lang="custom-colors" readonly="False" tags="" unique_id="15">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="Script Results" prog_lang="custom-colors" readonly="False" tags="" unique_id="16">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="0" foreground="" is_bold="False" name="Permissions" prog_lang="custom-colors" readonly="False" tags="" unique_id="17">
+					<rich_text></rich_text>
+				</node>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Loot" prog_lang="custom-colors" readonly="False" tags="" unique_id="18">
+			<rich_text></rich_text>
+			<node custom_icon_id="18" foreground="" is_bold="False" name="Creds" prog_lang="custom-colors" readonly="False" tags="" unique_id="19">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="18" foreground="" is_bold="False" name="Hashes" prog_lang="custom-colors" readonly="False" tags="" unique_id="20">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="18" foreground="" is_bold="False" name="Flags" prog_lang="custom-colors" readonly="False" tags="" unique_id="21">
+				<rich_text></rich_text>
+			</node>
+		</node>
+	</node>
+</cherrytree>
