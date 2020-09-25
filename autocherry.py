@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-from xml.etree import ElementTree as ET
-from libnmap.parser import NmapParser
 import os
 import argparse
+from libnmap.parser import NmapParser
+from xml.etree import ElementTree as ET
 
 parser = argparse.ArgumentParser()
 exgroup = parser.add_mutually_exclusive_group(required=True)
