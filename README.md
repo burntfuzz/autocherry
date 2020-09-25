@@ -34,7 +34,7 @@ This will output a `.ctd` file for use with Cherrytree. You can convert to anoth
 
 ## Requirements
 
- - Python 3
+ - Python 3.6+
  - `python3-libnmap`
 
 ## Usage
