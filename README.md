@@ -4,6 +4,11 @@ Parses AutoRecon output files and imports them into Cherrytree.
 - [AutoRecon](https://github.com/Tib3rius/AutoRecon)
 - [Cherrytree](https://www.giuspen.com/cherrytree/)
 
+## NOTICE
+> This is no longer being actively worked on. AutoRecon now has built-in plugins for exporting output to Cherrytree and Markdown. You can use them with the `--reports cherrytree` or `--reports markdown` flags in your AutoRecon command. This will output the report in the `/reports` directory.
+> If for some reason you still want to use this, it should function as long you use the `--single target` and `--no-port-dirs` flags in AutoRecon.
+> You can stil use it to create an empty template, of course.
+
 AutoCherry will parse a given AutoRecon target directory and generate a Cherrytree notebook from it.  A node will be created for each open port, and subnodes will be created for extra files that AutoRecon generates for that port. AutoRecon is primarily meant as a tool for CTFs, so the template is built for them too.
 
 ![alt text](https://github.com/burntfuzz/autocherry/blob/master/examples/blunder_example.png "HTB: Blunder")

@@ -240,8 +240,8 @@ def create_ctd(autorecon_dir):
     tcp_scans_exist, udp_scans_exist = True, True
     nmap_tcp_file = os.path.abspath(os.path.join(scans_dir, "_full_tcp_nmap.txt"))
     nmap_tcp_xml_file = os.path.abspath(os.path.join(scans_dir, "xml/_full_tcp_nmap.xml"))
-    nmap_udp_file = os.path.abspath(os.path.join(scans_dir, "_top_20_udp_nmap.txt"))
-    nmap_udp_xml_file = os.path.abspath(os.path.join(scans_dir, "xml/_top_20_udp_nmap.xml"))
+    nmap_udp_file = os.path.abspath(os.path.join(scans_dir, "_top_100_udp_nmap.txt"))
+    nmap_udp_xml_file = os.path.abspath(os.path.join(scans_dir, "xml/_top_100_udp_nmap.xml"))
 
     if not all([os.path.isfile(nmap_tcp_xml_file), os.path.isfile(nmap_tcp_file)]):
         user_resp = yes_or_no("Nmap TCP scan files are missing. Create template anyway? [y/n]\n")
